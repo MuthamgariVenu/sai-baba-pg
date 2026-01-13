@@ -15,7 +15,7 @@ export default function LocationCard() {
       </p>
 
       <div className="mt-3 space-y-1 text-sm">
-        <p>🚇 2 mins to Metro</p>
+        <p>🚇 5 mins to Metro</p>
         <p>🚌 Bus Stop nearby</p>
         <p>🏢 Near IT Offices</p>
       </div>

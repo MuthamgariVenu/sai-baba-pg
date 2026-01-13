@@ -14,18 +14,17 @@ export default function RoomsCard() {
         onClick={() => setOpen(true)}
         className="bg-white rounded-2xl shadow-lg p-4 mt-4 cursor-pointer"
       >
-       <h2 className="text-lg font-bold flex items-center gap-2">
-  🛏️ Rooms & Rent
-</h2>
+        <h2 className="text-lg font-bold flex items-center gap-2">
+          🛏️ Rooms & Rent
+        </h2>
 
-<p className="text-sm text-gray-600 mt-1">
-  AC & Non-AC • 2 / 3 / 4 Sharing
-</p>
+        <p className="text-sm text-gray-600 mt-1">
+          Non-AC • 2 / 3 / 4 / 5 Sharing
+        </p>
 
-<p className="text-xs text-blue-600 mt-2 font-medium">
-  👉 Tap to view room details & rent
-</p>
-
+        <p className="text-xs text-blue-600 mt-2 font-medium">
+          👉 Tap to view room details & rent
+        </p>
       </motion.div>
 
       {/* Overlay */}
@@ -58,12 +57,14 @@ export default function RoomsCard() {
               </div>
 
               <div className="space-y-3 text-sm">
+                <Room title="5 Sharing – Non-AC" price="₹6,000" />
                 <Room title="4 Sharing – Non-AC" price="₹6,500" />
-                <Room title="3 Sharing – Non-AC" price="₹7,500" />
-                <Room title="2 Sharing – Non-AC" price="₹8,000" />
-                <Room title="3 Sharing – AC" price="₹8,500" highlight />
-                <p className="text-gray-500 text-xs">
-                  + ₹2,000 advance applicable and 50% will return 
+                <Room title="3 Sharing – Non-AC" price="₹7,000" />
+                <Room title="3 Sharing – Non-AC (Premium)" price="₹8,000" />
+                <Room title="2 Sharing – Non-AC" price="₹9,500" highlight />
+
+                <p className="text-gray-500 text-xs mt-2">
+                  + ₹2,000 advance applicable and 50% refundable
                 </p>
               </div>
             </motion.div>

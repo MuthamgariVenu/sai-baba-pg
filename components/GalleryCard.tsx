@@ -5,10 +5,10 @@ import Image from "next/image";
 import { useState } from "react";
 
 const images = [
-  { src: "/images/room.jpg", label: "Room" },
-  { src: "/images/dining.jpg", label: "Dining" },
-  { src: "/images/bathroom.jpg", label: "Bathroom" },
-  { src: "/images/outside.jpg", label: "Outside" },
+  { src: "/images/roomV2.jpg", label: "Room" },
+  { src: "/images/diningV2.jpg", label: "Dining" },
+  { src: "/images/bathroomV2.jpg", label: "Bathroom" },
+  { src: "/images/outsideV2.jpg", label: "Outside" },
 ];
 
 export default function GalleryCard() {
@@ -18,11 +18,7 @@ export default function GalleryCard() {
   return (
     <>
       {/* GALLERY CARD */}
-      <motion.div
-        whileTap={{ scale: 1.02 }}
-        onClick={() => setOpen(true)}
-        className="bg-white rounded-2xl shadow-lg p-4 mt-4 cursor-pointer"
-      >
+      <div className="bg-white rounded-2xl shadow-lg p-4 mt-4">
         <div className="flex items-center justify-between mb-3">
           <h2 className="text-lg font-bold">🖼️ Photo Gallery</h2>
           <span className="text-xs text-blue-600">Tap to view</span>
@@ -33,7 +29,11 @@ export default function GalleryCard() {
           {images.map((img, i) => (
             <div
               key={i}
-              className="relative min-w-[120px] h-24 rounded-xl overflow-hidden"
+              onClick={() => {
+                setActive(i);   // ✅ set correct image
+                setOpen(true);  // ✅ open gallery
+              }}
+              className="relative min-w-[120px] h-24 rounded-xl overflow-hidden cursor-pointer"
             >
               <Image
                 src={img.src}
@@ -49,9 +49,9 @@ export default function GalleryCard() {
             </div>
           ))}
         </div>
-      </motion.div>
+      </div>
 
-      {/* FULL SCREEN OVERLAY */}
+      {/* FULL SCREEN GALLERY */}
       <AnimatePresence>
         {open && (
           <motion.div
@@ -63,7 +63,7 @@ export default function GalleryCard() {
             {/* CLOSE BUTTON */}
             <button
               onClick={() => setOpen(false)}
-              className="absolute top-4 right-4 text-white text-xl font-bold z-50"
+              className="absolute top-4 right-4 text-white text-2xl font-bold z-50"
             >
               ✕
             </button>
