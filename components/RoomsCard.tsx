@@ -79,8 +79,9 @@ export default function RoomsCard() {
 
                 {/* BLINKING ADVANCE NOTE */}
                 <p className="mt-3 text-center text-xs font-semibold text-orange-600 animate-pulse">
-                  + ₹2,000 advance applicable • 50% refundable
-                </p>
+  Advance ₹3,000 applicable • ₹2,000 refundable
+</p>
+
               </div>
             </motion.div>
           </motion.div>

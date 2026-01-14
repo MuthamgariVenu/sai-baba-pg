@@ -16,19 +16,20 @@ export default function LocationCard() {
 
       <div className="mt-3 space-y-1 text-sm">
         <p>🚇 5 mins to Metro</p>
-        <p>🚌 Bus Stop nearby</p>
+     
         <p>🏢 Near IT Offices</p>
       </div>
 
       {/* Directions Button */}
       <a
-        href="https://www.google.com/maps/dir/?api=1&destination=17.4519647,78.3653393"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="block mt-4 text-center bg-blue-600 text-white py-3 rounded-xl font-semibold"
-      >
-        📍 Get Directions
-      </a>
+  href="https://maps.app.goo.gl/Hbkc2ctUBZPBe1Q8A"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-blue-600 py-3 text-white font-semibold"
+>
+  📍 Get Directions
+</a>
+
     </motion.div>
   );
 }

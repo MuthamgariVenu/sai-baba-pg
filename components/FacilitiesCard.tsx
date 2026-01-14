@@ -6,7 +6,7 @@ export default function FacilitiesCard() {
     { icon: "📶", label: "WiFi", bg: "bg-indigo-50" },
     { icon: "🗄️", label: "Cupboards", bg: "bg-cyan-50" },
     { icon: "🔥", label: "Geyser", bg: "bg-orange-50" },
-    { icon: "🧊", label: "Refrigerator", bg: "bg-sky-50" },
+    { icon: "🧊", label: "Refrigerator (Each floor)", bg: "bg-sky-50" },
     { icon: "🚰", label: "Water Dispenser (Each Floor)", bg: "bg-teal-50" },
     { icon: "📹", label: "CCTV", bg: "bg-gray-50" },
     { icon: "🆔", label: "Fingerprint Access", bg: "bg-purple-50" },

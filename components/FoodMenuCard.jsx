@@ -18,7 +18,7 @@ export default function FoodMenuCard() {
           🍽️ Food Menu
         </h2>
         <p className="text-sm text-gray-600 mt-1">
-          Homely food • Weekly breakfast menu
+          Hygienic homely food • 3 times daily
         </p>
         <p className="text-xs text-blue-600 mt-2 font-medium">
           👉 Tap to view food details
@@ -57,41 +57,36 @@ export default function FoodMenuCard() {
 
               {/* Content */}
               <div className="space-y-3 text-sm">
-                {/* Breakfast */}
-               {/* Breakfast */}
-<div className="rounded-xl p-3 border bg-yellow-50">
-  <p className="font-semibold mb-1">🍳 Breakfast (Weekly)</p>
-  <p className="text-sm text-gray-700">
-  7 days – 7 different breakfast items (rotational menu)
-</p>
-
-</div>
-
-
-                {/* Lunch */}
+                {/* Daily Food */}
                 <div className="rounded-xl p-3 border bg-green-50">
-                  <p className="font-semibold">🍛 Lunch (Daily)</p>
-                  <p className="text-xs text-gray-700 mt-1">
-                    Rice, Curry, Dal, Sambar
-                  </p>
-                </div>
-
-                {/* Dinner */}
-                <div className="rounded-xl p-3 border bg-blue-50">
-                  <p className="font-semibold">🌙 Dinner (Daily)</p>
-                  <p className="text-xs text-gray-700 mt-1">
-                    Chapathi, Curry, Rasam, Buttermilk
+                  <p className="font-semibold mb-1">🍴 Daily Food</p>
+                  <p className="text-gray-700">
+                    Breakfast, Lunch & Dinner provided every day
                   </p>
                 </div>
 
                 {/* Non Veg */}
-                <div className="rounded-xl border border-red-200 bg-red-50 p-3 text-center">
-                  <p className="font-semibold text-red-700">
-                    🍗 Non-Veg Provided
+                <div className="rounded-xl p-3 border bg-red-50">
+                  <p className="font-semibold text-red-700 mb-1">
+                    🍗 Non-Vegetarian
                   </p>
-                  <p className="text-xs text-red-600 mt-1">
-                    2 times per week
+                  <p className="text-gray-700">
+                    Chicken – 2 times per week<br />
+                    Egg – 2 times per week
                   </p>
+                </div>
+
+                {/* Snacks */}
+                <div className="rounded-xl p-3 border bg-yellow-50">
+                  <p className="font-semibold mb-1">☕ Snacks</p>
+                  <p className="text-gray-700">
+                    Snacks available 2 times per week
+                  </p>
+                </div>
+
+                {/* Note */}
+                <div className="rounded-xl p-3 border bg-blue-50 text-xs text-gray-600">
+                  Menu may vary on special occasions & festivals
                 </div>
               </div>
             </motion.div>
