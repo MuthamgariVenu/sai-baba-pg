@@ -11,11 +11,11 @@ export default function HeroCard() {
       transition={{ duration: 0.4, ease: "easeOut" }}
       className="bg-white rounded-2xl shadow-xl overflow-hidden mx-auto"
     >
-      {/* IMAGE SECTION */}
-      <div className="relative w-full aspect-[16/9]">
+      {/* IMAGE SECTION – SAME LOOK, SMALLER HEIGHT */}
+      <div className="relative w-full h-[220px] sm:h-[260px]">
         <Image
-          src="/images/pg-frontV3.jpg"
-          alt="Platinum Bloom Women's PG"
+          src="/images/pg-frontS5.jpg"
+          alt="Sai Baba Men's Hostel"
           fill
           priority
           className="object-cover"
@@ -38,21 +38,21 @@ export default function HeroCard() {
       {/* CONTENT SECTION */}
       <div className="p-4 text-center">
         <p className="text-xs text-gray-600">
-          Siddiq Nagar, 10th Line, Hitech City, Hyderabad, Telangana 500032
+          Siddiq Nagar, 9th Line, Hitech City, Hyderabad, Telangana 500032
         </p>
 
         <h1 className="text-xl font-extrabold text-gray-900 mt-2 opacity-100">
-          Platinum Bloom Women&apos;s PG
+          Sai Baba Men&apos;s Hostel 2
         </h1>
 
         <p className="text-sm text-gray-600 mt-1">
           Clean Rooms • Homely Food • Near Metro
         </p>
 
-        {/* PRIMARY CALL – MAIN NUMBER */}
+        {/* PRIMARY CALL */}
         <a
           href="tel:9701716111"
-          className="inline-flex items-center justify-center gap-2 mt-4 px-6 py-2 rounded-full text-base font-bold text-white bg-green-600 animate-pulse shadow-lg"
+          className="relative z-10 inline-flex items-center justify-center gap-2 mt-4 px-6 py-2 rounded-full text-base font-bold text-white bg-green-600 animate-pulse shadow-lg"
         >
           📞 Call Now: 9701716111
         </a>

@@ -61,13 +61,18 @@ export default function RoomsCard() {
               <div className="space-y-3 text-sm">
                 
                 <Room
+                  title="5 Sharing – Non-AC"
+                  price="₹6,000 / month"
+                  bg="bg-indigo-50"
+                />
+                <Room
                   title="4 Sharing – Non-AC"
-                  price="₹6,000 And ₹6,500 / month"
+                  price="₹6,500 / month"
                   bg="bg-indigo-50"
                 />
                 <Room
                   title="3 Sharing – Non-AC"
-                  price="₹7,500 And ₹8,000/ month"
+                  price="₹7,000 And ₹8,000/ month"
                   bg="bg-cyan-50"
                 />
                 

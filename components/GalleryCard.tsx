@@ -5,11 +5,13 @@ import Image from "next/image";
 import { useState } from "react";
 
 const images = [
-   { src: "/images/diningV3.jpg", label: "Entrance" },
-   { src: "/images/roomV31.jpg", label: "Room" },
-    { src: "/images/roomV32.jpg", label: "Room" },
-     { src: "/images/roomV33.jpg", label: "Room" },
-  { src: "/images/roomV3.jpg", label: "Room" },
+  
+   { src: "/images/entrance.jpg", label: "Entrance" },
+    { src: "/images/dinningS3.jpg", label: "Dining" },
+     { src: "/images/roomS1.jpg", label: "Room" },
+  { src: "/images/roomS2.jpg", label: "Room" },
+   { src: "/images/roomS.jpg", label: "Room" },
+   { src: "/images/bathroomV3.jpg", label: "Room" },
  
   { src: "/images/outsideV3.jpg", label: "Outside" },
 ];
