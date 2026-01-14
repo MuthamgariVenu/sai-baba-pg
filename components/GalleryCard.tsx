@@ -11,7 +11,6 @@ const images = [
     { src: "/images/roomV32.jpg", label: "Room" },
      { src: "/images/roomV33.jpg", label: "Room" },
  
-  { src: "/images/bathroomV3.jpg", label: "Bathroom" },
   { src: "/images/outsideV3.jpg", label: "Outside" },
 ];
 
@@ -24,7 +23,10 @@ export default function GalleryCard() {
       {/* GALLERY CARD */}
       <div className="bg-white rounded-2xl shadow-lg p-4 mt-4">
         <div className="flex items-center justify-between mb-3">
-          <h2 className="text-lg font-bold">🖼️ Photo Gallery</h2>
+<h2 className="text-lg font-extrabold text-gray-900 opacity-100">
+  🖼️ Photo Gallery
+</h2>
+
           <span className="text-xs text-blue-600">Tap to view</span>
         </div>
 

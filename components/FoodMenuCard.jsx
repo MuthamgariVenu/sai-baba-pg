@@ -14,9 +14,10 @@ export default function FoodMenuCard() {
         onClick={() => setOpen(true)}
         className="bg-white rounded-2xl shadow-lg p-4 mt-4 cursor-pointer"
       >
-        <h2 className="text-lg font-bold flex items-center gap-2">
-          🍽️ Food Menu
-        </h2>
+      <h2 className="text-lg font-extrabold text-gray-900 opacity-100 flex items-center gap-2">
+  🍽️ Food Menu
+</h2>
+
         <p className="text-sm text-gray-600 mt-1">
           Hygienic homely food • 3 times daily
         </p>

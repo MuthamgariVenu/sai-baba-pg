@@ -14,9 +14,9 @@ export default function RoomsCard() {
         onClick={() => setOpen(true)}
         className="bg-white rounded-2xl shadow-lg p-4 mt-4 cursor-pointer"
       >
-        <h2 className="text-lg font-bold flex items-center gap-2">
-          🛏️ Rooms & Rent
-        </h2>
+       <h2 className="text-lg font-extrabold text-gray-900 opacity-100 flex items-center gap-2">
+  🛏️ Rooms & Rent
+</h2>
 
         <p className="text-sm text-gray-600 mt-1">
           Non-AC • 2 / 3 / 4 / 5 Sharing
@@ -78,9 +78,10 @@ export default function RoomsCard() {
                 />
 
                 {/* BLINKING ADVANCE NOTE */}
-                <p className="mt-3 text-center text-xs font-semibold text-orange-600 animate-pulse">
-  Advance ₹3,000 applicable • ₹2,000 refundable
+               <p className="mt-3 text-center text-xs font-semibold text-orange-600 animate-pulse">
+  Advance ₹3,000 applicable • ₹2,000 refundable • One month prior notice mandatory
 </p>
+
 
               </div>
             </motion.div>

@@ -31,19 +31,18 @@ export default function HeroCard() {
 
         {/* TOP RIGHT */}
         <div className="absolute top-3 right-3 bg-white/90 px-3 py-1 rounded-full text-xs font-semibold shadow">
-          📍 Anjaiah Nagar
+          📍 siddiq Nagar
         </div>
       </div>
 
       {/* CONTENT SECTION */}
       <div className="p-4 text-center">
         <p className="text-xs text-gray-600">
-          Anjaiah Nagar, Hyderabad • Near Kakatiya Hospital, Gachibowli & IT Offices
+          Siddiq Nagar,10Th Line ,HitechCity,Hyderabad,Telangana 500032
         </p>
-
-        <h1 className="text-xl font-bold mt-2">
-          Platinum Bloom Women&apos;s PG
-        </h1>
+<h1 className="text-xl font-extrabold text-gray-900 mt-2 opacity-100">
+  Platinum Bloom Women&apos;s PG
+</h1>
 
         <p className="text-sm text-gray-600 mt-1">
           Clean Rooms • Homely Food • Near Metro
@@ -54,7 +53,8 @@ export default function HeroCard() {
           href="tel:9985499864"
           className="inline-flex items-center justify-center gap-2 mt-4 px-6 py-2 rounded-full text-base font-bold text-white bg-green-600 animate-pulse shadow-lg"
         >
-          📞 Call Now: 9985499864
+          📞 Call Now: 
+           9701716111 
         </a>
 
         {/* SECONDARY CONTACT */}
@@ -64,7 +64,7 @@ export default function HeroCard() {
             href="tel:9701716111"
             className="font-semibold text-green-700 underline"
           >
-            9701716111
+            9985499864
           </a>
         </p>
       </div>

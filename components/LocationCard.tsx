@@ -8,14 +8,16 @@ export default function LocationCard() {
       whileTap={{ scale: 1.02 }}
       className="bg-white rounded-2xl shadow-lg p-4 mt-4"
     >
-      <h2 className="text-lg font-bold mb-1">📍 Location</h2>
+<h2 className="text-lg font-extrabold text-gray-900 opacity-100 mb-1">
+  📍 Location
+</h2>
 
       <p className="text-sm text-gray-600">
-        Anjaiah Nagar, Hyderabad • Near Platina Building, Gachibowli & IT Offices
+        Siddiq Nagar,10Th Line ,HitechCity,Hyderabad,Telangana 500032
       </p>
 
       <div className="mt-3 space-y-1 text-sm">
-        <p>🚇 5 mins to Metro</p>
+        <p>🚇 10 mins to Metro</p>
      
         <p>🏢 Near IT Offices</p>
       </div>
