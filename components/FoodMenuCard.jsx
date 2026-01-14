@@ -19,7 +19,7 @@ export default function FoodMenuCard() {
 </h2>
 
         <p className="text-sm text-gray-600 mt-1">
-          Hygienic homely food • 3 times daily
+           Homely food • 3 times daily
         </p>
         <p className="text-xs text-blue-600 mt-2 font-medium">
           👉 Tap to view food details
