@@ -10,7 +10,8 @@ const images = [
     { src: "/images/dinningS3.jpg", label: "Dining" },
      { src: "/images/roomS1.jpg", label: "Room" },
   { src: "/images/roomS2.jpg", label: "Room" },
-   { src: "/images/roomS.jpg", label: "Room" },
+   { src: "/images/roomS3.jpg", label: "Room" },
+    { src: "/images/roomS4.jpg", label: "Room" },
    { src: "/images/bathroomV3.jpg", label: "Room" },
  
   { src: "/images/outsideV3.jpg", label: "Outside" },

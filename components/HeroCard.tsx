@@ -49,15 +49,15 @@ export default function HeroCard() {
           Clean Rooms • Homely Food • Near Metro
         </p>
 
-        {/* PRIMARY CALL */}
+        {/* PRIMARY CALL – UPDATED NUMBER */}
         <a
-          href="tel:9701716111"
+          href="tel:8978499854"
           className="relative z-10 inline-flex items-center justify-center gap-2 mt-4 px-6 py-2 rounded-full text-base font-bold text-white bg-green-600 animate-pulse shadow-lg"
         >
-          📞 Call Now: 9701716111
+          📞 Call Now: 8978499854
         </a>
 
-        {/* SECONDARY CONTACT */}
+        {/* SECONDARY CONTACT – SAME */}
         <p className="text-sm text-gray-700 mt-2">
           Alternate Contact:{" "}
           <a
