@@ -11,7 +11,7 @@ const images = [
   { src: "/images/roomS2.jpg", label: "Room" },
   { src: "/images/roomS3.jpg", label: "Room" },
   { src: "/images/roomS4.jpg", label: "Room" },
-  { src: "/images/bathroomV3.jpg", label: "Room" },
+  { src: "/images/bathroomV3.jpg", label: "BathRoom" },
   { src: "/images/outsideV3.jpg", label: "Outside" },
 ];
 
