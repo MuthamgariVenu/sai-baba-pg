@@ -14,13 +14,16 @@ export default function FoodMenuCard() {
         onClick={() => setOpen(true)}
         className="bg-white rounded-2xl shadow-lg p-4 mt-4 cursor-pointer"
       >
-      <h2 className="text-lg font-extrabold text-gray-900 opacity-100 flex items-center gap-2">
-  🍽️ Food Menu
-</h2>
+        {/* Title – FINAL LOCKED */}
+        <h2 className="text-lg font-extrabold text-gray-900 flex items-center gap-2">
+          🍽️ Food Menu
+        </h2>
 
-        <p className="text-sm text-gray-600 mt-1">
-           Homely food • 3 times daily
+        {/* Subtitle – FINAL LOCKED */}
+        <p className="text-sm text-gray-700 font-medium mt-1">
+          Homely food • 3 times daily
         </p>
+
         <p className="text-xs text-blue-600 mt-2 font-medium">
           👉 Tap to view food details
         </p>
@@ -47,10 +50,13 @@ export default function FoodMenuCard() {
             >
               {/* Header */}
               <div className="flex justify-between items-center mb-4">
-                <h3 className="text-lg font-bold">🍽️ Food Details</h3>
+                {/* Modal Title – FINAL LOCKED */}
+                <h3 className="text-lg font-extrabold text-gray-900">
+                  🍽️ Food Details
+                </h3>
                 <button
                   onClick={() => setOpen(false)}
-                  className="text-gray-500 text-xl"
+                  className="text-gray-600 text-xl"
                 >
                   ✕
                 </button>
@@ -60,8 +66,10 @@ export default function FoodMenuCard() {
               <div className="space-y-3 text-sm">
                 {/* Daily Food */}
                 <div className="rounded-xl p-3 border bg-green-50">
-                  <p className="font-semibold mb-1">🍴 Daily Food</p>
-                  <p className="text-gray-700">
+                  <p className="font-semibold text-gray-900 mb-1">
+                    🍴 Daily Food
+                  </p>
+                  <p className="text-gray-800 font-medium">
                     Breakfast, Lunch & Dinner provided every day
                   </p>
                 </div>
@@ -71,16 +79,15 @@ export default function FoodMenuCard() {
                   <p className="font-semibold text-red-700 mb-1">
                     🍗 Non-Vegetarian
                   </p>
-                  <p className="text-gray-700">
-                    Chicken – 2 times per week<br />
+                  <p className="text-gray-800 font-medium">
+                    Chicken – 2 times per week
+                    <br />
                     Egg – 2 times per week
                   </p>
                 </div>
 
-              
-
                 {/* Note */}
-                <div className="rounded-xl p-3 border bg-blue-50 text-xs text-gray-600">
+                <div className="rounded-xl p-3 border bg-blue-50 text-xs text-gray-700 font-medium">
                   Menu may vary on special occasions & festivals
                 </div>
               </div>

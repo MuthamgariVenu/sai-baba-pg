@@ -14,12 +14,14 @@ export default function RoomsCard() {
         onClick={() => setOpen(true)}
         className="bg-white rounded-2xl shadow-lg p-4 mt-4 cursor-pointer"
       >
-        <h2 className="text-lg font-extrabold text-gray-900 opacity-100 flex items-center gap-2">
+        {/* Title – FINAL LOCKED */}
+        <h2 className="text-lg font-extrabold text-gray-900 flex items-center gap-2">
           🛏️ Rooms & Rent
         </h2>
 
-        <p className="text-sm text-gray-600 mt-1">
-          Non-AC • 2 / 3 / 4 / 5 Sharing
+        {/* Subtitle – FINAL LOCKED */}
+        <p className="text-sm text-gray-700 font-medium mt-1">
+          Room • 2 / 3 / 4 / 5 Sharing
         </p>
 
         <p className="text-xs text-blue-600 mt-2 font-medium">
@@ -48,7 +50,8 @@ export default function RoomsCard() {
             >
               {/* Header */}
               <div className="flex justify-between items-center mb-4">
-                <h3 className="text-lg font-extrabold text-gray-900 opacity-100">
+                {/* Modal Title – FINAL LOCKED */}
+                <h3 className="text-lg font-extrabold text-gray-900">
                   🛏️ Rooms & Rent
                 </h3>
                 <button
@@ -62,29 +65,30 @@ export default function RoomsCard() {
               {/* Rooms */}
               <div className="space-y-3 text-sm">
                 <Room
-                  title="5 Sharing – Non-AC"
+                  title="5 Sharing "
                   price="₹6,000 / month"
                   bg="bg-indigo-50"
                 />
                 <Room
-                  title="4 Sharing – Non-AC"
+                  title="4 Sharing "
                   price="₹6,500 / month"
                   bg="bg-indigo-50"
                 />
                 <Room
-                  title="3 Sharing – Non-AC"
+                  title="3 Sharing "
                   price="₹7,000 And ₹8,000 / month"
                   bg="bg-cyan-50"
                 />
                 <Room
-                  title="2 Sharing – Non-AC"
+                  title="2 Sharing "
                   price="₹9,500 / month"
                   bg="bg-green-50"
                 />
 
                 {/* Advance Note */}
                 <p className="mt-3 text-center text-xs font-semibold text-orange-600 animate-pulse">
-                  Advance ₹3,000 applicable • ₹2,000 refundable • One month prior notice mandatory
+                  Advance ₹3,000 applicable • ₹2,000 refundable • One month prior
+                  notice mandatory
                 </p>
               </div>
             </motion.div>
@@ -95,7 +99,7 @@ export default function RoomsCard() {
   );
 }
 
-/* EACH ROOM CARD – iPhone SAFE */
+/* EACH ROOM CARD – FINAL SAFARI SAFE */
 function Room({
   title,
   price,
@@ -107,10 +111,10 @@ function Room({
 }) {
   return (
     <div className={`rounded-xl p-3 border border-gray-200 ${bg}`}>
-      <p className="font-semibold text-gray-900 opacity-100">
+      <p className="font-semibold text-gray-900">
         {title}
       </p>
-      <p className="text-gray-800 opacity-100">
+      <p className="text-gray-800 font-medium">
         {price}
       </p>
     </div>

@@ -8,18 +8,18 @@ export default function LocationCard() {
       whileTap={{ scale: 1.02 }}
       className="bg-white rounded-2xl shadow-lg p-4 mt-4"
     >
-      {/* Heading */}
-      <h2 className="text-lg font-extrabold text-gray-900 opacity-100 mb-1">
+      {/* Heading – FINAL LOCKED */}
+      <h2 className="text-lg font-extrabold text-gray-900 mb-1">
         📍 Location
       </h2>
 
-      {/* Address */}
-      <p className="text-sm text-gray-700">
+      {/* Address – FINAL LOCKED */}
+      <p className="text-sm text-gray-700 font-medium">
         Siddiq Nagar, 9th Line, Hitech City, Hyderabad, Telangana – 500032
       </p>
 
       {/* Nearby Info */}
-      <div className="mt-3 space-y-1 text-sm text-gray-700">
+      <div className="mt-3 space-y-1 text-sm text-gray-700 font-medium">
         <p>🚇 10 mins to Metro</p>
         <p>🏢 Near IT Offices</p>
       </div>
@@ -36,4 +36,3 @@ export default function LocationCard() {
     </motion.div>
   );
 }
-  

@@ -2,17 +2,16 @@
 
 export default function FacilitiesCard() {
   const facilities = [
-  { icon: "🧺", label: "Washing Machine", bg: "bg-blue-50" },
-  { icon: "📶", label: "WiFi", bg: "bg-indigo-50" },
-  { icon: "🔥", label: "Geyser", bg: "bg-orange-50" },
-  { icon: "❄️", label: "Refrigerator (Each floor)", bg: "bg-sky-50" },
-  { icon: "🚰", label: "Water Dispenser (Each floor)", bg: "bg-teal-50" },
-  { icon: "📹", label: "CCTV", bg: "bg-gray-50" },
-  { icon: "🆔", label: "Fingerprint Access", bg: "bg-purple-50" },
-  { icon: "🗄️", label: "Cupboard & Shoe Rack", bg: "bg-cyan-50" },
-  { icon: "⚡", label: "Power Backup", bg: "bg-yellow-50" },
- 
-];
+    { icon: "🧺", label: "Washing Machine", bg: "bg-blue-50" },
+    { icon: "📶", label: "WiFi", bg: "bg-indigo-50" },
+    { icon: "🔥", label: "Geyser", bg: "bg-orange-50" },
+    { icon: "❄️", label: "Refrigerator (Each floor)", bg: "bg-sky-50" },
+    { icon: "🚰", label: "Water Dispenser (Each floor)", bg: "bg-teal-50" },
+    { icon: "📹", label: "CCTV", bg: "bg-gray-50" },
+    { icon: "🆔", label: "Fingerprint Access", bg: "bg-purple-50" },
+    { icon: "🗄️", label: "Cupboard & Shoe Rack", bg: "bg-cyan-50" },
+    { icon: "⚡", label: "Power Backup", bg: "bg-yellow-50" },
+  ];
 
   return (
     <div className="mt-5">
@@ -21,10 +20,13 @@ export default function FacilitiesCard() {
           
           {/* Header */}
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-lg font-bold text-gray-900 flex items-center gap-2">
+            {/* Title – FINAL LOCKED */}
+            <h2 className="text-lg font-extrabold text-gray-900 flex items-center gap-2">
               🛠️ Facilities
             </h2>
-            <span className="text-xs text-green-600 font-medium">
+
+            {/* Subtitle – FINAL LOCKED */}
+            <span className="text-xs text-gray-700 font-medium">
               Included
             </span>
           </div>
@@ -49,13 +51,13 @@ export default function FacilitiesCard() {
           </div>
 
           {/* Footer */}
-          <div className="mt-6 text-center text-xs text-gray-600">
+          <div className="mt-6 text-center text-xs text-gray-700 font-medium">
             All facilities are available for residents
             <p className="mt-3 text-center text-sm font-semibold text-green-700 animate-pulse">
-  ⚡ Electricity bill included
-</p>
-
+              ⚡ Electricity bill included
+            </p>
           </div>
+
         </div>
       </div>
     </div>

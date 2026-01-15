@@ -11,7 +11,7 @@ export default function HeroCard() {
       transition={{ duration: 0.4, ease: "easeOut" }}
       className="bg-white rounded-2xl shadow-xl overflow-hidden mx-auto"
     >
-      {/* IMAGE SECTION – SAME LOOK, SMALLER HEIGHT */}
+      {/* IMAGE SECTION – SAME LOOK, SAME HEIGHT */}
       <div className="relative w-full h-[220px] sm:h-[260px]">
         <Image
           src="/images/pg-frontS5.jpg"
@@ -37,19 +37,22 @@ export default function HeroCard() {
 
       {/* CONTENT SECTION */}
       <div className="p-4 text-center">
-        <p className="text-xs text-gray-600">
+        {/* Address – subtitle standard */}
+        <p className="text-xs text-gray-700 font-medium">
           Siddiq Nagar, 9th Line, Hitech City, Hyderabad, Telangana 500032
         </p>
 
-        <h1 className="text-xl font-extrabold text-gray-900 mt-2 opacity-100">
+        {/* Title – FINAL LOCKED */}
+        <h1 className="text-xl font-extrabold text-gray-900 mt-2">
           Sai Baba Men&apos;s Hostel 2
         </h1>
 
-        <p className="text-sm text-gray-600 mt-1">
+        {/* Subtitle – FINAL LOCKED */}
+        <p className="text-sm text-gray-700 font-medium mt-1">
           Clean Rooms • Homely Food • Near Metro
         </p>
 
-        {/* PRIMARY CALL – UPDATED NUMBER */}
+        {/* PRIMARY CALL */}
         <a
           href="tel:8978499854"
           className="relative z-10 inline-flex items-center justify-center gap-2 mt-4 px-6 py-2 rounded-full text-base font-bold text-white bg-green-600 animate-pulse shadow-lg"
@@ -57,8 +60,8 @@ export default function HeroCard() {
           📞 Call Now: 8978499854
         </a>
 
-        {/* SECONDARY CONTACT – SAME */}
-        <p className="text-sm text-gray-700 mt-2">
+        {/* SECONDARY CONTACT */}
+        <p className="text-sm text-gray-700 font-medium mt-2">
           Alternate Contact:{" "}
           <a
             href="tel:9985499864"
